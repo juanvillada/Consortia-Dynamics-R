@@ -60,7 +60,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 # Script step by step:
 
-**Reproducing some of the results found by:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
+**Reproducing some of the results found by:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J. (2017). Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics. Nature communications, 8(1), 789. doi:10.1038/s41467-017-00912-x_
 
 ## Install and load libraries
 
