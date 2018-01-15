@@ -4,6 +4,23 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
+System:
+
+![System](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/System.png "System")
+
+>Diagram adapted from [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
+
+| Var| Name                         |
+|----|------------------------------|
+| PB | cyanobacteria                |
+| SB | phototrophic sulfur bacteria |
+| CB | sulfate-reducing bacteria    |
+| SO | oxidized sulfur              |
+| SR | reduced sulfur               |
+| O  | oxygen                       |
+| P  | phosphorus                   |
+
+
 # Table of contents
 <!-- TOC -->
 
@@ -28,15 +45,6 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
     - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
 
 <!-- /TOC -->
-| Var| Name ------------------------|
-|----|------------------------------|
-| PB | cyanobacteria                |
-| SB | phototrophic sulfur bacteria |
-| CB | sulfate-reducing bacteria    |
-| SO | oxidized sulfur              |
-| SR | reduced sulfur               |
-| O  | oxygen                       |
-| P  | phosphorus                   |
 
 ## Expected outcomes
 
