@@ -4,9 +4,11 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
+# Table of contents
 <!-- TOC -->
 
 - [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
+- [Table of contents](#table-of-contents)
     - [Expected outcomes](#expected-outcomes)
         - [Scenario I](#scenario-i)
         - [Scenario II](#scenario-ii)
@@ -15,7 +17,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
     - [Install and load libraries](#install-and-load-libraries)
     - [Function to plot results](#function-to-plot-results)
     - [Define dynamic model of microbial interactions using Ordinary differential equations (ODEs)](#define-dynamic-model-of-microbial-interactions-using-ordinary-differential-equations-odes)
-    - [Introducing experimental parameters](#introducing-experimental-parameters)
+    - [Parameters](#parameters)
     - [Loading parameters into dynamic model](#loading-parameters-into-dynamic-model)
     - [Defining times to be simulated](#defining-times-to-be-simulated)
     - [[SCENARIO I] Defining environmental conditions for simulation](#scenario-i-defining-environmental-conditions-for-simulation)
@@ -26,6 +28,15 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
     - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
 
 <!-- /TOC -->
+
+|----|------------------------------|
+| PB | cyanobacteria                |
+| SB | phototrophic sulfur bacteria |
+| CB | sulfate-reducing bacteria    |
+| SO | oxidized sulfur              |
+| SR | reduced sulfur               |
+| O  | oxygen                       |
+| P  | phosphorus                   |
 
 ## Expected outcomes
 
@@ -40,7 +51,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 - [Rscript here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
 - [R markdown here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
-- [R] notebook here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html)
+- [R notebook here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html)
 
 # Script step by step:
 
@@ -145,7 +156,7 @@ community_model <- function(time, y, parms){
   })}
 ```
 
-## Introducing experimental parameters
+## Parameters
 
 ```r
 # growth parameters 
