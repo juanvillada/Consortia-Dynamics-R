@@ -4,6 +4,31 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
+<!-- TOC -->
+
+- [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
+- [Microbial Ecosystem](#microbial-ecosystem)
+    - [System](#system)
+    - [(expected) Simulations outcome](#expected-simulations-outcome)
+        - [Scenario I](#scenario-i)
+        - [Scenario II](#scenario-ii)
+    - [Code in multiple formats](#code-in-multiple-formats)
+- [Script step by step:](#script-step-by-step)
+    - [Install and load libraries](#install-and-load-libraries)
+    - [Function to plot results](#function-to-plot-results)
+    - [Define dynamic model of microbial interactions using Ordinary differential equations (ODEs)](#define-dynamic-model-of-microbial-interactions-using-ordinary-differential-equations-odes)
+    - [Parameters](#parameters)
+    - [Loading parameters into dynamic model](#loading-parameters-into-dynamic-model)
+    - [Defining times to be simulated](#defining-times-to-be-simulated)
+    - [[SCENARIO I] Defining environmental conditions for simulation](#scenario-i-defining-environmental-conditions-for-simulation)
+    - [Run simulation for SCENARIO I](#run-simulation-for-scenario-i)
+    - [Plot results for SCENARIO I](#plot-results-for-scenario-i)
+    - [[SCENARIO II] Defining environmental conditions for simulation](#scenario-ii-defining-environmental-conditions-for-simulation)
+    - [Run simulation for SCENARIO II](#run-simulation-for-scenario-ii)
+    - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
+
+<!-- /TOC -->
+
 # Microbial Ecosystem
 
 ## System
@@ -28,33 +53,6 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 ### Scenario II
 ![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
-
-# Table of contents
-<!-- TOC -->
-
-- [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
-- [Microbial Ecosystem](#microbial-ecosystem)
-    - [System](#system)
-    - [(expected) Simulations outcome](#expected-simulations-outcome)
-        - [Scenario I](#scenario-i)
-        - [Scenario II](#scenario-ii)
-- [Table of contents](#table-of-contents)
-    - [Code in multiple formats](#code-in-multiple-formats)
-- [Script step by step:](#script-step-by-step)
-    - [Install and load libraries](#install-and-load-libraries)
-    - [Function to plot results](#function-to-plot-results)
-    - [Define dynamic model of microbial interactions using Ordinary differential equations (ODEs)](#define-dynamic-model-of-microbial-interactions-using-ordinary-differential-equations-odes)
-    - [Parameters](#parameters)
-    - [Loading parameters into dynamic model](#loading-parameters-into-dynamic-model)
-    - [Defining times to be simulated](#defining-times-to-be-simulated)
-    - [[SCENARIO I] Defining environmental conditions for simulation](#scenario-i-defining-environmental-conditions-for-simulation)
-    - [Run simulation for SCENARIO I](#run-simulation-for-scenario-i)
-    - [Plot results for SCENARIO I](#plot-results-for-scenario-i)
-    - [[SCENARIO II] Defining environmental conditions for simulation](#scenario-ii-defining-environmental-conditions-for-simulation)
-    - [Run simulation for SCENARIO II](#run-simulation-for-scenario-ii)
-    - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
-
-<!-- /TOC -->
 
 ## Code in multiple formats
 
