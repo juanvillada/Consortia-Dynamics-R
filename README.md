@@ -1,9 +1,18 @@
 # Dynamics of Microbial Ecology in R
 
-
-Reproducing: _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
+**Reproducing:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
 
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
+
+## Expected outcomes
+
+### Scenario I
+![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
+
+
+### Scenario II
+![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
+
 
 ## Install and load libraries
 
