@@ -1,7 +1,5 @@
----
-title: "Dynamics of Microbial Ecology in R"
-output: html_notebook
----
+# Dynamics of Microbial Ecology in R
+
 
 Reproducing: _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
 
@@ -9,7 +7,7 @@ Reproducing: _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huism
 
 ## Install and load libraries
 
-```{r}
+```r
 #install.packages('deSolve')
 #install.packages('ggplot2')
 #install.packages('reshape')
@@ -25,7 +23,7 @@ library('scales')
 
 ## Function to plot results
 
-```{r}
+```r
 # plot results function
 plot_results <- function(init_df = init_df){
   
@@ -73,7 +71,7 @@ plot_results <- function(init_df = init_df){
 
 ## Define dynamic model of microbial interactions using Ordinary differential equations (ODEs)
 
-```{r}
+```r
 ## multi-species dynamic growth model
 community_model <- function(time, y, parms){
   with(as.list(c(y, parms)), {
@@ -108,7 +106,7 @@ community_model <- function(time, y, parms){
 
 ## Introducing experimental parameters
 
-```{r}
+```r
 # growth parameters 
 gmax_CB <- 0.05 # Maximum specific growth rate of CB [hr-1]
 gmax_PB <- 0.07 # Maximum specific growth rate of PB [hr-1]
@@ -157,7 +155,7 @@ c <- 4E-5 # Oxidation rate of reduced sulfur [1/µM * 1/h]
 
 ## Loading parameters into dynamic model
 
-```{r}
+```r
 parms <- c(gmax_CB = gmax_CB,
            gmax_PB = gmax_PB,
            gmax_SB = gmax_SB,
@@ -206,7 +204,7 @@ parms <- c(gmax_CB = gmax_CB,
 
 ## Defining times to be simulated
 
-```{r}
+```r
 # Time
 times <- seq(from = 0, to = 4000, by = 1)
 ```
@@ -214,7 +212,7 @@ times <- seq(from = 0, to = 4000, by = 1)
 
 ## [SCENARIO I] Defining environmental conditions for simulation
 
-```{r}
+```r
 # Environment
 y <- c(N_CB = 5E1,
        N_PB = 1E7,
@@ -228,21 +226,21 @@ y <- c(N_CB = 5E1,
 
 ## Run simulation for SCENARIO I
 
-```{r}
+```r
 init_batch <- ode(y, times, community_model, parms)
 init_df_batch <- data.frame(init_batch)
 ```
 
 ## Plot results for SCENARIO I
 
-```{r}
+```r
 plot_results(init_df = init_df_batch)
 ```
 
 
 ## [SCENARIO II] Defining environmental conditions for simulation
 
-```{r}
+```r
 y <- c(N_CB = 1E8,
        N_PB = 1E2,
        N_SB = 1E2,
@@ -255,13 +253,13 @@ y <- c(N_CB = 1E8,
 
 ## Run simulation for SCENARIO II
 
-```{r}
+```r
 init_batch <- ode(y, times, community_model, parms)
 init_df_batch <- data.frame(init_batch)
 ```
 
 ## Plot results for SCENARIO II
 
-```{r}
+```r
 plot_results(init_df = init_df_batch)
 ```
