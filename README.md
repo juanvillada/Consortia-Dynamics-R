@@ -28,7 +28,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
     - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
 
 <!-- /TOC -->
-
+| Var| Name ------------------------|
 |----|------------------------------|
 | PB | cyanobacteria                |
 | SB | phototrophic sulfur bacteria |
