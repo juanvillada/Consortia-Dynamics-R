@@ -2,6 +2,29 @@
 
 **Reproducing:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
 
+<!-- TOC -->
+
+- [Dynamics of Microbial Ecology in R](#dynamics-of-microbial-ecology-in-r)
+    - [Expected outcomes](#expected-outcomes)
+        - [Scenario I](#scenario-i)
+        - [Scenario II](#scenario-ii)
+    - [Code availability in multiple formats](#code-availability-in-multiple-formats)
+- [Script step by step:](#script-step-by-step)
+    - [Install and load libraries](#install-and-load-libraries)
+    - [Function to plot results](#function-to-plot-results)
+    - [Define dynamic model of microbial interactions using Ordinary differential equations (ODEs)](#define-dynamic-model-of-microbial-interactions-using-ordinary-differential-equations-odes)
+    - [Introducing experimental parameters](#introducing-experimental-parameters)
+    - [Loading parameters into dynamic model](#loading-parameters-into-dynamic-model)
+    - [Defining times to be simulated](#defining-times-to-be-simulated)
+    - [[SCENARIO I] Defining environmental conditions for simulation](#scenario-i-defining-environmental-conditions-for-simulation)
+    - [Run simulation for SCENARIO I](#run-simulation-for-scenario-i)
+    - [Plot results for SCENARIO I](#plot-results-for-scenario-i)
+    - [[SCENARIO II] Defining environmental conditions for simulation](#scenario-ii-defining-environmental-conditions-for-simulation)
+    - [Run simulation for SCENARIO II](#run-simulation-for-scenario-ii)
+    - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
+
+<!-- /TOC -->
+
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
 ## Expected outcomes
@@ -13,6 +36,13 @@
 ### Scenario II
 ![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
 
+## Code availability in multiple formats
+
+- Rscript here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R
+- R markdown here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd
+- R notebook here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html 
+
+# Script step by step:
 
 ## Install and load libraries
 
@@ -246,6 +276,7 @@ init_df_batch <- data.frame(init_batch)
 plot_results(init_df = init_df_batch)
 ```
 
+![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
 
 ## [SCENARIO II] Defining environmental conditions for simulation
 
@@ -272,3 +303,5 @@ init_df_batch <- data.frame(init_batch)
 ```r
 plot_results(init_df = init_df_batch)
 ```
+
+![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
