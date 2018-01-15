@@ -4,8 +4,9 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
-System:
+# Microbial Ecosystem
 
+## System
 ![System](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/System.png "System")
 
 >Diagram adapted from [Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
@@ -20,11 +21,10 @@ System:
 | O  | oxygen                       |
 | P  | phosphorus                   |
 
-Simulations outcome
+## Simulations outcome
 
 Scenario I
 ![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
-
 
 Scenario II
 ![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
@@ -33,6 +33,9 @@ Scenario II
 <!-- TOC -->
 
 - [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
+- [Microbial Ecosystem](#microbial-ecosystem)
+    - [System](#system)
+    - [Simulations outcome](#simulations-outcome)
 - [Table of contents](#table-of-contents)
     - [Code in multiple formats](#code-in-multiple-formats)
 - [Script step by step:](#script-step-by-step)
