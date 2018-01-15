@@ -20,15 +20,20 @@ System:
 | O  | oxygen                       |
 | P  | phosphorus                   |
 
+Simulations outcome
+
+Scenario I
+![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
+
+
+Scenario II
+![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
 
 # Table of contents
 <!-- TOC -->
 
 - [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
 - [Table of contents](#table-of-contents)
-    - [Expected outcomes](#expected-outcomes)
-        - [Scenario I](#scenario-i)
-        - [Scenario II](#scenario-ii)
     - [Code in multiple formats](#code-in-multiple-formats)
 - [Script step by step:](#script-step-by-step)
     - [Install and load libraries](#install-and-load-libraries)
@@ -45,15 +50,6 @@ System:
     - [Plot results for SCENARIO II](#plot-results-for-scenario-ii)
 
 <!-- /TOC -->
-
-## Expected outcomes
-
-### Scenario I
-![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
-
-
-### Scenario II
-![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
 
 ## Code in multiple formats
 
