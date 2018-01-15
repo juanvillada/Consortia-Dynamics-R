@@ -1,14 +1,16 @@
-# Dynamics of Microbial Ecology in R
+# Modelling Microbial Communities Dynamics in R
 
-**Reproducing:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
+This repository makes use of `R` to solve a system of Ordinary Differential Equations (ODEs) describing the dynamics of a microbial community. The example presented here is taken from the paper:_Bush et al., 2017. Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics. Nature communications, 8(1), 789_
+
+[Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
 <!-- TOC -->
 
-- [Dynamics of Microbial Ecology in R](#dynamics-of-microbial-ecology-in-r)
+- [Modelling Microbial Communities Dynamics in R](#modelling-microbial-communities-dynamics-in-r)
     - [Expected outcomes](#expected-outcomes)
         - [Scenario I](#scenario-i)
         - [Scenario II](#scenario-ii)
-    - [Code availability in multiple formats](#code-availability-in-multiple-formats)
+    - [Code in multiple formats](#code-in-multiple-formats)
 - [Script step by step:](#script-step-by-step)
     - [Install and load libraries](#install-and-load-libraries)
     - [Function to plot results](#function-to-plot-results)
@@ -25,8 +27,6 @@
 
 <!-- /TOC -->
 
-[Link to referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
-
 ## Expected outcomes
 
 ### Scenario I
@@ -36,13 +36,15 @@
 ### Scenario II
 ![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
 
-## Code availability in multiple formats
+## Code in multiple formats
 
-- Rscript here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R
-- R markdown here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd
-- R notebook here: https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html 
+- [Rscript here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
+- [R markdown here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
+- [R] notebook here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html)
 
 # Script step by step:
+
+**Reproducing some of the results found by:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J._ (2017). **Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics.** _Nature communications_, 8(1), 789. doi:10.1038/s41467-017-00912-x
 
 ## Install and load libraries
 
