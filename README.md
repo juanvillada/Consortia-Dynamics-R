@@ -29,7 +29,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 # Microbial Ecosystem
 
-## System
+### System
 <img src="img/System.png" class="img-responsive" alt="">
 
 >Diagram adapted from [referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
