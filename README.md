@@ -47,15 +47,15 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 ## (expected) Simulations outcome
 
 ### Scenario I
-![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
+<img src="img/Scenario_I.png" class="img-responsive" alt="">
 
 ### Scenario II
-![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
+<img src="img/Scenario_II.png" class="img-responsive" alt="">
 
 ## Code
 
-- [Rscript](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
-- [R markdown](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
+- [Rscript](https://github.com/juanvillada/Consortia-Dynamics-R/blob/master/Consortia-Dynamics.R)
+- [R markdown](https://github.com/juanvillada/Consortia-Dynamics-R/blob/master/Consortia-Dynamics.Rmd)
 
 # Script:
 
@@ -256,7 +256,7 @@ parms <- c(gmax_CB = gmax_CB,
 )
 ```
 
-## Defining times to be simulated
+## Time to be simulated
 
 ```r
 # Time
@@ -264,7 +264,7 @@ times <- seq(from = 0, to = 4000, by = 1)
 ```
 
 
-## [SCENARIO I] Defining environmental conditions for simulation
+## [SCENARIO I] Environmental conditions
 
 ```r
 # Environment
@@ -293,7 +293,7 @@ plot_results(init_df = init_df_batch)
 
 ![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
 
-## [SCENARIO II] Defining environmental conditions for simulation
+## [SCENARIO II] Environmental conditions
 
 ```r
 y <- c(N_CB = 1E8,
