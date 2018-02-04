@@ -291,7 +291,7 @@ init_df_batch <- data.frame(init_batch)
 plot_results(init_df = init_df_batch)
 ```
 
-![Scenario I](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_I.png "Scenario I")
+<img src="img/Scenario_I.png" class="img-responsive" alt="">
 
 ## [SCENARIO II] Environmental conditions
 
@@ -319,4 +319,4 @@ init_df_batch <- data.frame(init_batch)
 plot_results(init_df = init_df_batch)
 ```
 
-![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
+<img src="img/Scenario_II.png" class="img-responsive" alt="">
