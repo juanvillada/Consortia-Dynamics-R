@@ -30,8 +30,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 # Microbial Ecosystem
 
 ## System
-![System](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/System.png "System")
-<img src="img/System.png" class="img-responsive" alt=""> </div>
+<img src="img/System.png" class="img-responsive" alt="">
 
 >Diagram adapted from [referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
@@ -58,9 +57,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 - [Rscript](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
 - [R markdown](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
 
-# Script step by step:
-
-**Reproducing some of the results found by:** _Bush, T., Diao, M., Allen, R. J., Sinnige, R., Muyzer, G., & Huisman, J. (2017). Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics. Nature communications, 8(1), 789. doi:10.1038/s41467-017-00912-x_
+# Script:
 
 ## Install and load libraries
 
