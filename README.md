@@ -1,4 +1,4 @@
-# Modeling microbial community dynamics of in R
+# Modeling microbial community dynamics in R
 
 This repository makes use of `R` to solve a system of Ordinary Differential Equations (ODEs) describing the dynamics of a microbial community. The example presented here is taken from the paper: **_Bush et al., 2017. Oxic-anoxic regime shifts mediated by feedbacks between biogeochemical processes and microbial community dynamics. Nature communications, 8(1), 789._** [Link](https://www.nature.com/articles/s41467-017-00912-x)
 
