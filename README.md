@@ -31,6 +31,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 ## System
 ![System](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/System.png "System")
+<img src="img/System.png" class="img-responsive" alt=""> </div>
 
 >Diagram adapted from [referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
 
