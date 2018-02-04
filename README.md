@@ -10,7 +10,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
     - [(expected) Simulations outcome](#expected-simulations-outcome)
         - [Scenario I](#scenario-i)
         - [Scenario II](#scenario-ii)
-    - [Code in multiple formats](#code-in-multiple-formats)
+    - [Code](#code)
 - [Script step by step:](#script-step-by-step)
     - [Install and load libraries](#install-and-load-libraries)
     - [Function to plot results](#function-to-plot-results)
@@ -52,11 +52,10 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 ### Scenario II
 ![Scenario II](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/img/Scenario_II.png "Scenario II")
 
-## Code in multiple formats
+## Code
 
-- [Rscript here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
-- [R markdown here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
-- [R notebook here](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.nb.html)
+- [Rscript](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.R)
+- [R markdown](https://github.com/juanvillada/Reproducing_Bush-et-al-2017-NatComm/blob/master/Bush_et_al_2017_NatComm.Rmd)
 
 # Script step by step:
 
