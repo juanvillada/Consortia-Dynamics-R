@@ -4,9 +4,7 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 <!-- TOC -->
 
-- [Modeling the Dynamics of Microbial Communities in R](#modeling-the-dynamics-of-microbial-communities-in-r)
-- [Microbial Ecosystem](#microbial-ecosystem)
-    - [System](#system)
+- [Ecosystem](#Ecosystem)
     - [(expected) Simulations outcome](#expected-simulations-outcome)
         - [Scenario I](#scenario-i)
         - [Scenario II](#scenario-ii)
@@ -27,9 +25,8 @@ This repository makes use of `R` to solve a system of Ordinary Differential Equa
 
 <!-- /TOC -->
 
-# Microbial Ecosystem
+# Ecosystem
 
-### Ecosystem
 <img src="img/System.png" class="img-responsive" alt="">
 
 >Diagram adapted from [referenced paper](https://www.nature.com/articles/s41467-017-00912-x)
